@@ -76,7 +76,7 @@ coloc.analysis.quant <- function(beta1,beta2,se1,se2,MAF1,MAF2,N1,N2){
 }
 
 #call the input file
-input_file <- "CSF1-Schooling.pvalues.txt"
+input_file <- "CSF1-Schooling.txt"
 df <- read.table(input_file, header=T)
 df <- df[complete.cases(df), ]
 
