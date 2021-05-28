@@ -127,7 +127,7 @@ coloc.analysis <- function(beta1,beta2,se1,se2,MAF1,MAF2,N1,N2,s){
 }
 
 #call the input file
-input_file <- "MUC16-Asthma.pvalues.txt"
+input_file <- "MUC16-Asthma.txt"
 df <- read.table(input_file, header=T)
 df <- df[complete.cases(df), ]
 
